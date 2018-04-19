@@ -1,0 +1,330 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 1500px;
+}
+nav{
+	width: 100%;
+}
+.container{
+	width:980px;
+	margin: 0 auto;
+}
+.container .navtop{
+	width: 980px;
+	height: 60px;
+}
+.container .navtop img{
+	float: left;
+	width: 179px;
+	height: 25px;
+	margin-top: 18px;
+}
+.container .navtop .search{
+    float: right;
+    width: 201px;
+    height: 33px;
+    margin-top: 15px;
+}
+.container .navtop .search .text{
+	width: 162px;
+	height: 29px;
+	border:1px solid #ccc;
+	border-radius:4px 0 0 4px;
+	border-right: none;
+	float: left;
+}
+.container .navtop .search .button{
+    width: 33px;
+	height: 31px;
+	border:1px solid #ccc;
+	border-radius: 0 4px 4px 0 ;
+	background:  url(images/button.png) no-repeat;
+	float: left;
+}
+nav .navbuttom{
+	width: 100%;
+	background-color: #eee;
+	border-top: 1px solid #ccc;
+}
+nav .navbuttom ul{
+	width: 980px;
+	height: 50px;
+	list-style: none;
+}
+nav .navbuttom ul li{
+	float: left;
+	width: 150px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	text-align: center;
+	border-right: 1px solid #ddd;
+}
+nav .navbuttom ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+header{
+	width: 100%;
+}
+header .container .banner{
+	width: 980px;
+	height: 601px;
+	background:  url(images/banner.png) center center no-repeat;
+}
+aside{
+	width: 100%;
+}
+aside .container .dot{
+	width: 40px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+aside .container .dot .dot1{
+	width: 13px;
+	height: 13px;
+	border: 1px solid #eee;
+	float: left;
+	display: inline-block;
+	background-color: #eee;
+    border-radius:8px;
+
+}
+
+aside .container .dot .dot2{
+	width: 13px;
+	height: 13px;
+	border: 1px solid #eee;
+	float: right;
+	display: inline-block;
+	background-color: #aaa;
+	border-radius:8px;
+}
+article{
+	width:100%;
+	margin-top: 50px;
+	background-color: #eee;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+article .container .notice{
+	width: 980px;
+	height: 32px;
+}
+article .container .notice h5{
+	line-height: 32px;
+	display: inline-block;
+}
+article .container .notice .share{
+    width: 88px;
+    height: 19px;
+    background:  url(images/share.png) no-repeat;
+    float: right;
+    display: inline-block;
+    margin-top: 6px;
+}
+section{
+	width: 100%;
+	margin-top: 20px;
+
+}
+section .container .box{
+	width: 980px;
+	height: 257px;
+	overflow: hidden;
+
+}
+section .container .box .box1{
+	width: 312px;
+	height: 255px;
+	border:1px solid #ccc;
+	float: left;
+	display: inline-block;
+	margin-right: 13px;
+	background:  url(images/arrow.png) 5px 10px no-repeat;
+	text-indent: 2em;
+}
+section .container .box .box1 a{
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	color: yellowgreen;
+	display: block;
+	font-weight: 700;
+}
+section .container .box .box1 .pic{
+	width: 252px;
+	height: 157px;
+	margin-top: 49px;
+	margin-left: 25px;
+}
+section .container .box .box1 .pic .left{
+    width: 11px;
+    height: 19px;	
+    background:  url(images/left.png) no-repeat;
+    float: left;
+    display: inline-block;
+    margin-top: 68px;
+}
+section .container .box .box1 .pic .phone{
+    width: 137px;
+    height: 157px;
+    background:  url(images/pic.png) no-repeat;
+    float: left;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+section .container .box .box1 .pic .right{
+    width: 11px;
+    height: 19px;	
+    background:  url(images/right.png) no-repeat;
+    float: right;
+    display: inline-block;
+    margin-top: 68px;
+}
+section .container .box .box2{
+	width: 382px;
+	height: 255px;
+	border:1px solid #ccc;
+	float: left;
+	display: inline-block;
+	margin-right: 11px;
+	background:  url(images/arrow.png) 5px 10px no-repeat;
+}
+section .container .box .box2 .boxtop{
+    width: 342px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+section .container .box .box2 .boxtop .news a{
+	float: left;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: yellowgreen;
+
+
+}
+section .container .box .box2 .boxtop .more a{
+	float: right;
+    display: inline-block;
+    text-decoration: none;
+     font-size: 16px;
+    font-weight: 700;
+    color: #aaa;
+}
+section .container .box .box2 ul li{
+    list-style: none;
+    height: 14px;
+    border-bottom: 1px dashed #ccc;
+    margin: 20px;
+    margin-top: 10px;
+}
+.box2 ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	color: #aaa;
+	line-height: 5px;
+}
+.first{
+    color: red !important;
+}
+section .container .box .box3{
+	width: 252px;
+	height: 255px;
+	border:1px solid #ccc;
+	float: left;
+	display: inline-block;
+	background:  url(images/arrow.png) 5px 10px no-repeat;
+}
+section .container .box .box3 a{
+	margin-top: 10px;
+	text-decoration: none;
+	font-size: 14px;
+	color: yellowgreen;
+	font-weight: 700;
+	text-indent: 2em;
+	display: block;
+}
+section .container .box .box3 li{
+	list-style: none;
+	margin: 20px;
+} 
+section .container .box .box3 li a{
+	color: #aaa;
+	font-size: 12px;
+	display: block;
+	border-left: 2px solid yellowgreen;
+	line-height: 13px;
+}
+.box .box3 p{
+    font-size: 12px;
+    color: #aaa;
+    text-indent: 2em;
+}
+footer{
+	width:100%;
+	margin-top: 50px;
+	background-color: #2d2d2d;
+	
+}
+footer .bottom{
+    width: 980px;
+    margin: 0 auto;
+    height:203px;
+    background: url(images/back.png) 910px 0 no-repeat;
+}
+footer .bottom dl{
+	float: left;
+	display: inline-block;
+	width: 110px;
+	height: 200px;
+}
+footer .bottom dl dt{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+footer .bottom dl dt a{
+    color: #aaa;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+footer .bottom dl dd a{
+	color: #aaa;
+    font-size: 12px;
+    text-decoration: none;
+}
+footer .foot-last{
+	width: 100%;
+	height: 90px;
+	border-top: 1px dashed #aaa;
+	text-align: center;
+}
+footer .foot-last p{
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+}
+footer .foot-last .icon{
+	width: 40px;
+	height: 19px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+footer .foot-last .icon .icon1{
+	float: left;
+}
+footer .foot-last .icon .icon2{
+	float: right;
+}
